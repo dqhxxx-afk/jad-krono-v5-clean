@@ -115,3 +115,150 @@
     min-height: auto;
   }
 }
+
+
+/* JAD KRONO 1.2 — direct subpage layout */
+
+.subpage-direct {
+  padding-top: 132px;
+  min-height: 65svh;
+}
+
+.about-direct {
+  display: flex;
+  align-items: center;
+}
+
+.about-statement {
+  max-width: 920px;
+}
+
+.about-statement p:first-child {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(42px, 5.2vw, 72px);
+  line-height: 1.05;
+  letter-spacing: -1.4px;
+}
+
+.about-statement p + p {
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.collection-page.subpage-direct .collection-body {
+  padding-top: 10px;
+}
+
+.services-direct .service-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.services-direct .service-grid article {
+  min-height: 220px;
+}
+
+.services-direct .service-grid h2 {
+  font-size: clamp(28px, 2.8vw, 38px);
+}
+
+.contact-cards-direct {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.sell-direct .valuation-intro {
+  max-width: 760px;
+  margin-bottom: 56px;
+}
+
+.sell-direct .valuation-intro h1 {
+  font-size: clamp(48px, 5.4vw, 76px);
+}
+
+.sell-direct .valuation-intro p {
+  color: var(--muted);
+  font-size: 18px;
+  margin-top: 18px;
+}
+
+.faq-direct {
+  display: grid;
+  gap: 72px;
+}
+
+.faq-group {
+  max-width: 940px;
+}
+
+.faq-group > h1 {
+  font-size: clamp(34px, 3.8vw, 52px);
+  margin-bottom: 22px;
+}
+
+.legal-title {
+  max-width: 900px;
+  margin-bottom: 40px;
+}
+
+.legal-title h1 {
+  font-size: clamp(44px, 4.8vw, 66px);
+}
+
+.legal-updated {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  .services-direct .service-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .subpage-direct {
+    padding-top: 132px;
+    padding-bottom: 76px;
+  }
+
+  .about-direct {
+    min-height: auto;
+  }
+
+  .about-statement p:first-child {
+    font-size: clamp(40px, 11vw, 48px);
+    line-height: 1.03;
+  }
+
+  .services-direct .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-direct .service-grid article {
+    min-height: auto;
+  }
+
+  .sell-direct .valuation-intro {
+    margin-bottom: 38px;
+  }
+
+  .sell-direct .valuation-intro h1 {
+    font-size: clamp(42px, 11.5vw, 50px);
+  }
+
+  .faq-direct {
+    gap: 52px;
+  }
+
+  .faq-group > h1 {
+    font-size: 36px;
+  }
+
+  .legal-title {
+    margin-bottom: 28px;
+  }
+
+  .legal-title h1 {
+    font-size: clamp(38px, 10vw, 46px);
+  }
+}

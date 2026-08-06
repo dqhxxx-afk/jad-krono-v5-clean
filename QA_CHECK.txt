@@ -1,0 +1,9 @@
+collection_route_exists: OK
+about_has_no_repeated_title: OK
+services_has_no_repeated_title: OK
+legal_has_no_timestamp: OK
+faq_has_no_email: OK
+export_service_exists: OK
+stock_unchanged: OK
+
+Note: npm build could not run in this session because the environment registry returned 404 for tslib. This is an environment package-registry issue, not a source-code error.

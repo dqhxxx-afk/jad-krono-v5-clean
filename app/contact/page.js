@@ -8,64 +8,54 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <main id="main-content" className="page-shell contact-page">
-        <section className="contact-layout">
-          <div className="contact-intro">
-            <h1>Get in touch.</h1>
+      <main id="main-content" className="page-shell subpage-direct contact-direct">
+        <section className="contact-cards contact-cards-direct">
+          <article className="contact-card enquiry">
+            <p className="eyebrow">Enquiry</p>
+            <h2>Send us the details.</h2>
             <p>
-              Message us about listed watches, sourcing, selling, consignment,
-              trades or viewing appointments.
+              For a listed watch, include the model or reference. For sourcing,
+              add the preferred year, condition and budget.
             </p>
-          </div>
-
-          <div className="contact-cards">
-            <article className="contact-card enquiry">
-              <p className="eyebrow">Enquiry</p>
-              <h2>Send us the details.</h2>
-              <p>
-                For a listed watch, include the model or reference. For sourcing,
-                add the preferred year, condition and budget.
-              </p>
-              <div className="button-row">
-                <a
-                  className="btn gold"
-                  href={site.whatsapp}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  WhatsApp
-                </a>
-              </div>
-            </article>
-
-            <article className="contact-card">
-              <p className="eyebrow">Visit</p>
-              <h3>Singapore</h3>
-              <p>Viewings are by appointment.</p>
+            <div className="button-row">
               <a
-                className="text-link"
-                href={site.googleMaps}
+                className="btn gold"
+                href={site.whatsapp}
                 target="_blank"
                 rel="noreferrer"
               >
-                Google Maps
+                WhatsApp
               </a>
-            </article>
+            </div>
+          </article>
 
-            <article className="contact-card">
-              <p className="eyebrow">Follow</p>
-              <h3>Instagram &amp; Facebook</h3>
-              <p>New listings and occasional updates.</p>
-              <div className="inline-links">
-                <a href={site.instagram} target="_blank" rel="noreferrer">
-                  Instagram
-                </a>
-                <a href={site.facebook} target="_blank" rel="noreferrer">
-                  Facebook
-                </a>
-              </div>
-            </article>
-          </div>
+          <article className="contact-card">
+            <p className="eyebrow">Visit</p>
+            <h2>Singapore</h2>
+            <p>Viewings are by appointment.</p>
+            <a
+              className="text-link"
+              href={site.googleMaps}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Google Maps
+            </a>
+          </article>
+
+          <article className="contact-card">
+            <p className="eyebrow">Follow</p>
+            <h2>Instagram &amp; Facebook</h2>
+            <p>New listings and occasional updates.</p>
+            <div className="inline-links">
+              <a href={site.instagram} target="_blank" rel="noreferrer">
+                Instagram
+              </a>
+              <a href={site.facebook} target="_blank" rel="noreferrer">
+                Facebook
+              </a>
+            </div>
+          </article>
         </section>
       </main>
       <Footer />

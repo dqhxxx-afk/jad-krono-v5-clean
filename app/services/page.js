@@ -8,21 +8,14 @@ export default function ServicesPage() {
   return (
     <>
       <Header />
-      <main id="main-content" className="page-shell">
-        <section className="page-hero">
-          <h1>Services.</h1>
-          <p>Viewings, sourcing, selling, consignment and trades.</p>
-        </section>
-
-        <section className="section services-page">
-          <div className="service-grid">
-            {services.map((service) => (
-              <article key={service.title}>
-                <h3>{service.title}</h3>
-                <p>{service.copy}</p>
-              </article>
-            ))}
-          </div>
+      <main id="main-content" className="page-shell subpage-direct services-direct">
+        <section className="service-grid">
+          {services.map((service) => (
+            <article key={service.title}>
+              <h2>{service.title}</h2>
+              <p>{service.copy}</p>
+            </article>
+          ))}
         </section>
       </main>
       <Footer />

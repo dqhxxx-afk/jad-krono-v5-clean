@@ -7,44 +7,34 @@ export default function TermsPage() {
   return (
     <>
       <Header />
-      <main id="main-content" className="page-shell legal-page">
-        <section className="page-hero single-page-hero legal-page-hero">
-          <h1>Terms & Conditions</h1>
-        <small className="legal-updated">Last updated: 11 July 2026</small>
+      <main id="main-content" className="page-shell subpage-direct legal-page">
+        <section className="legal-title">
+          <h1>Terms &amp; Conditions</h1>
         </section>
 
         <section className="legal-copy">
-          <h2>Availability</h2>
+          <h2>Availability &amp; pricing</h2>
           <p>
-            Watches are subject to prior sale, reservation or withdrawal. The website
-            may not reflect the latest inventory changes.
-          </p>
-
-          <h2>Pricing</h2>
-          <p>
-            Prices and product information may change without notice. A transaction
-            is confirmed only after both parties agree the final terms.
+            Watches are subject to prior sale, reservation or withdrawal.
+            Availability and pricing may change without notice.
           </p>
 
           <h2>Product information</h2>
           <p>
-            Descriptions, specifications and photographs are provided in good faith.
-            Please request any additional information needed before purchase.
+            Product descriptions and photographs are provided as accurately as
+            possible. Please request any additional information before purchase.
           </p>
 
-          <h2>Transactions</h2>
+          <h2>Viewings &amp; transactions</h2>
           <p>
-            Payment, collection, delivery and any other transaction terms will be
-            confirmed in writing before completion.
+            Viewings are by appointment. Payment, collection and delivery
+            arrangements are confirmed before completion.
           </p>
-
-          <h2>Viewings</h2>
-          <p>Viewings are arranged by appointment in Singapore.</p>
 
           <h2>Independent dealer</h2>
           <p>
-            JAD KRONO is an independent watch dealer and is not affiliated with or
-            endorsed by any watch manufacturer. Brand names, model names and trademarks
+            JAD KRONO is an independent watch dealer and is not affiliated with
+            or endorsed by any watch manufacturer. Brand names and trademarks
             are used for identification only.
           </p>
 

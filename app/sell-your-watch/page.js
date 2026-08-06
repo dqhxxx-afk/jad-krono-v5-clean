@@ -26,9 +26,9 @@ export default function SellPage() {
   return (
     <>
       <Header />
-      <main id="main-content" className="page-shell">
-        <section className="page-hero">
-          <h1>Sell Your Watch.</h1>
+      <main id="main-content" className="page-shell subpage-direct sell-direct">
+        <section className="valuation-intro">
+          <h1>Request a valuation.</h1>
           <p>Send us the watch details and recent photos.</p>
           <a
             className="btn gold"
@@ -36,15 +36,15 @@ export default function SellPage() {
             target="_blank"
             rel="noreferrer"
           >
-            Request a Valuation
+            WhatsApp
           </a>
         </section>
 
-        <section className="section sell-steps">
+        <section className="sell-steps">
           {steps.map((step) => (
             <article key={step.number}>
               <span>{step.number}</span>
-              <h3>{step.title}</h3>
+              <h2>{step.title}</h2>
               <p>{step.copy}</p>
             </article>
           ))}

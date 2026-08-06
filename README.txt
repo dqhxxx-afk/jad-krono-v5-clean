@@ -1,24 +1,19 @@
-JAD KRONO 1.1.7 SITEWIDE AUDIT PATCH
+JAD KRONO 1.2 FINAL CONTENT + LAYOUT PATCH
 
 Changes:
-- Home: removes redundant small section labels and keeps one headline per section.
-- About: removes the numbered Listings / Viewings / Transactions template cards.
-- Contact: removes the duplicate WhatsApp button from the intro and simplifies the copy.
-- Services: replaces passive, template-like wording with direct dealer language.
-- Sell Your Watch: clarifies that the date is the date on the card or papers.
-- FAQ: shortens repetitive and passive answers.
-- Product detail: hides generic descriptions and duplicate reference rows.
-- SEO/schema: standardises the primary domain to https://www.jadkrono.com.
-- Adds site-audit.css as a separate override file for safer merging.
+- Home remains the only page with a full hero.
+- About opens directly with the approved dealer statement.
+- Collection opens directly with Search, brand filters and listings.
+- Services opens directly with six service cards, including Export.
+- Contact opens directly with Enquiry, Visit and Follow cards.
+- Sell Your Watch opens with Request a valuation instead of repeating the tab name.
+- FAQ is grouped into Buying, Selling & Trading, Consignment and General.
+- Privacy and Terms are shorter and contain no Last updated / Effective date.
+- Email is not shown as an enquiry channel.
+- Stock, product names, MB&F, prices, quantities and images are unchanged.
 
-Not changed:
-- data/watches.json
-- stock list, product names, prices or quantities
-- MB&F
-- Admin or Supabase
-- DNS, SSL, favicon or images
-
-Safe deploy:
-Copy the listed files into the matching folders in the repository.
-Replace individual files only. Do not Replace the whole app folder.
-Commit: Apply sitewide copy and page audit
+Safe update:
+1. Open FILES_TO_REPLACE.txt.
+2. Replace each listed file individually.
+3. Do not Replace the whole app folder.
+4. Commit: Apply JAD KRONO 1.2 final content layout

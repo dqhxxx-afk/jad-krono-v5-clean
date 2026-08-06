@@ -32,5 +32,9 @@ export const services = [
   {
     title: "Trade",
     copy: "Send us the details of the watch you would like to trade."
+  },
+  {
+    title: "Export",
+    copy: "International delivery and export may be arranged for selected watches."
   }
 ];

@@ -7,13 +7,12 @@ export default function AboutPage() {
   return (
     <>
       <Header />
-      <main id="main-content" className="page-shell about-minimal">
-        <section className="page-hero">
-          <h1>About.</h1>
+      <main id="main-content" className="page-shell subpage-direct about-direct">
+        <section className="about-statement">
           <p>
-            Based in Singapore, we buy, sell and source modern and collectible
-            watches. Viewings are by appointment.
+            Based in Singapore, we buy, sell and source modern and collectible watches.
           </p>
+          <p>Viewings are by appointment.</p>
         </section>
       </main>
       <Footer />
