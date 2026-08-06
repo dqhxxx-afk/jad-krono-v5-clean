@@ -1,5 +1,5 @@
 
-> jad-krono-1-0-2-build-fix@1.0.2 build
+> jad-krono-1-1-3-mobile-hierarchy-fix@1.1.3 build
 > next build
 
 [33m[1m⚠[22m[39m No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
@@ -11,15 +11,15 @@ You can learn more, including how to opt-out if you'd not like to participate in
 [1m[38;2;173;127;168m▲ Next.js 16.2.10[39m[22m (Turbopack)
 
 [37m[1m [22m[39m Creating an optimized production build ...
-[32m[1m✓[22m[39m Compiled successfully in 6.1s
+[32m[1m✓[22m[39m Compiled successfully in 8.9s
 [37m[1m [22m[39m Running TypeScript ...
-[37m[1m [22m[39m Finished TypeScript in 212ms ...
+[37m[1m [22m[39m Finished TypeScript in 238ms ...
 [37m[1m [22m[39m Collecting page data using 16 workers ...
 [37m[1m [22m[39m Generating static pages using 16 workers (0/14) ...
 [37m[1m [22m[39m Generating static pages using 16 workers (3/14) 
 [37m[1m [22m[39m Generating static pages using 16 workers (6/14) 
 [37m[1m [22m[39m Generating static pages using 16 workers (10/14) 
-[32m[1m✓[22m[39m Generating static pages using 16 workers (14/14) in 748ms
+[32m[1m✓[22m[39m Generating static pages using 16 workers (14/14) in 1278ms
 [37m[1m [22m[39m Finalizing page optimization ...
 
 [4mRoute (app)[24m

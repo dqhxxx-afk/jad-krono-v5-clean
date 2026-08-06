@@ -1,0 +1,10 @@
+About heading removed: OK
+Services heading removed: OK
+Legal timestamps removed: OK
+Export service included: OK
+Collection route included: OK
+Shared dependency included: OK
+JavaScript files checked: 33
+Relative imports: all resolved
+Product cards: 22
+Note: npm build could not be run because package installation was blocked by the session registry.
